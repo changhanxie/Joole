@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="728c46bbe60a4a88b41911a925275104" Name="Diagram1">
+        <EntityTypeShape EntityType="JusticeModel.Product" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblCategory" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblDocument" Width="1.5" PointX="7.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblManufacture" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblOrder" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblProperty" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblSubCategory" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblUser" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="JusticeModel.tblPropertyValue" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="JusticeModel.fk_Document" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_Product_Manuf" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_Product_SubCat" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_ProVal_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_Manufactures" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="JusticeModel.fk_ProVal_Property" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
